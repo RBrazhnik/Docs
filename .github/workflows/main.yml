@@ -1,4 +1,3 @@
-# This is a basic workflow to help you get started with Actions
 name: ci 
 on:
   push:
@@ -22,4 +21,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - run: mkdocs main --force
+      - run: mkdocs gh-deploy --force
