@@ -1,0 +1,930 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="../ug/">
+      
+      
+      <link rel="icon" href="../assets/iconNNGF.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+    
+    
+      
+        <title>Техническое задание - Документация для отдела "Информационные технологии"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Документация для отдела &#34;Информационные технологии&#34;" class="md-header__button md-logo" aria-label="Документация для отдела "Информационные технологии"" data-md-component="logo">
+      
+  <img src="../assets/iconNNGF.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Документация для отдела "Информационные технологии"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Техническое задание
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Ночь"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Ночь" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="День"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="День" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+    
+  
+  Техническое задание
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../ug/" class="md-tabs__link">
+          
+  
+    
+  
+  Руководство пользователя
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../pg/" class="md-tabs__link">
+          
+  
+    
+  
+  Руководство программиста
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Документация для отдела &#34;Информационные технологии&#34;" class="md-nav__button md-logo" aria-label="Документация для отдела "Информационные технологии"" data-md-component="logo">
+      
+  <img src="../assets/iconNNGF.png" alt="logo">
+
+    </a>
+    Документация для отдела "Информационные технологии"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    Техническое задание
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Техническое задание
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../ug/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Руководство пользователя
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Руководство пользователя
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../pg/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Руководство программиста
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Руководство программиста
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Общие сведения
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Назначение и цели создания автоматизированной системы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Характеристика объектов автоматизации
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Требования к автоматизированной системе
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Состав и содержание работ по созданию автоматизированной системы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Порядок разработки автоматизированной системы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Порядок контроля и приемки автоматизированной системы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Требования к составу и содержанию работ по подготовке объекта автоматизации к вводу автоматизированной системы в действие
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Требования к документированию
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Источники разработки
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ФОРМА ПОСЛЕДНЕГО ЛИСТА ТЗ НА АС
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1">Техническое задание</h1>
+<p><img alt="" src="mediaTS/ts1.png" /></p>
+<h2 id="1">1. Общие сведения</h2>
+<p>Настоящее техническое задание распространяется на разработку
+информационной системы (ИС) отдела «Информационные технологии»,
+необходимой для ПАО «НижневартовскНефтеГеоФизика». Данная ИС
+предназначена для автоматизации и оптимизации процессов, связанных с
+поддержанием работоспособности оборудования и технического обслуживания
+в организации.</p>
+<p>Наименование работы: ИС отдела «Информационные технологии»</p>
+<p>Разработчик: Бражник Роман Игоревич.</p>
+<p>Заказчик: ПАО «НижневартовскНефтеГеоФизика».</p>
+<p>Плановые сроки начала и окончания работ по проектированию
+автоматизированной системы: с 2 сентября 2024 -- до 10 ноября 2024.</p>
+<p>Курсовой проект по проектированию автоматизированной системы проводится
+на основе учебного плана и утвержден БУ «Мегионский политехнический
+колледж».</p>
+<p>Источник финансирования не требуется, поскольку проектирование
+автоматизированной системы осуществляется в рамках учебного процесса.
+Данный проект направлен на получение знаний и практических навыков, что
+позволяет углубить компетенции без необходимости привлечения внешних
+финансовых ресурсов.</p>
+<h2 id="2">2. Назначение и цели создания автоматизированной системы</h2>
+<p>Цель проектирования информационной системы для ОИТ --- эффективное и
+оперативное осуществление технического обслуживания средств
+вычислительной техники с минимизацией простоев и удовлетворением
+запросов сотрудников.</p>
+<p>Спроектируемая информационная система отдела «Информационные технологии»
+предназначена для автоматизации процесса обслуживания и управления
+ресурсами ОИТ.</p>
+<h2 id="3">3. Характеристика объектов автоматизации</h2>
+<p>Объектом автоматизации является отдел «Информационные технологии».
+Объект автоматизации обусловлен необходимостью автоматизации и
+оптимизации поддерживать техническое обслуживание средств вычислительной
+техники (ТО СВТ), обеспечивать эффективное функционирование рабочих
+процессов и оптимизировать затраты на обслуживание и ремонт техники.</p>
+<p>Информационная система обеспечит следующие функции:</p>
+<ul>
+<li>
+<p>авторизация пользователей;</p>
+</li>
+<li>
+<p>учет и обработка обращений сотрудников;</p>
+</li>
+<li>
+<p>ведение базы данных инвентаря и учет состояния техники;</p>
+</li>
+<li>
+<p>создание и обработка заявок на обслуживание;</p>
+</li>
+<li>
+<p>учет и контроль за закупками оборудования и расходных материалов.</p>
+</li>
+</ul>
+<p>Система будет установлена на выделенном сервере, подключенном к
+корпоративной сети. В условия эксплуатации объекта автоматизации
+включают:</p>
+<p>1. Оптический канал с пропускной способностью не менее 2 Гбит/с;</p>
+<p>2. Системы защиты от несанкционированного доступа;</p>
+<p>3. Электропитание оборудования первой категории надежности;</p>
+<p>4. Промышленную систему вентиляции и кондиционирования;</p>
+<p>5. Систему автоматического газового пожаротушения.</p>
+<h2 id="4">4. Требования к автоматизированной системе</h2>
+<p>Требования к структуре автоматизированной системы включают:</p>
+<p>• Авторизация пользователей;</p>
+<p>• Подсистема «Акт Наряды» - содержит информацию о нарядах заявок;</p>
+<p>• Подсистема «Заявки» - содержит заявки от сотрудников;</p>
+<p>• Подсистема «Документы» - содержит документы закупочной деятельности,
+списанной и утилизированной оргтехники;</p>
+<p>• Подсистема «Инвентаризация» - содержит актуальные данные об инвентаре;</p>
+<p>• Подсистема «Справочники» - содержит категории справочников: данные об
+предприятии и данные о средствах вычислительной техники.</p>
+<p>Требования к функциям автоматизированной системы включают:</p>
+<ul>
+<li>
+<p>Авторизация пользователей;</p>
+</li>
+<li>
+<p>Подсистема «Акт Наряды» - обслуживания нарядов на заявки;</p>
+</li>
+<li>
+<p>Подсистема «Заявки» - обработка заявок на обслуживание от
+    сотрудников;</p>
+</li>
+<li>
+<p>Подсистема «Документы» - проведение закупочной деятельности,
+    списание и утилизация оргтехники;</p>
+</li>
+<li>
+<p>Подсистема «Инвентаризация» - ведение и актуализация данных об
+    оборудовании и инвентаре;</p>
+</li>
+<li>
+<p>Подсистема «Справочники» - хранение данных сотрудников, различных
+    типов данных средств вычислительной техники и данных заявок.</p>
+</li>
+</ul>
+<p>Требования к видам обеспечения автоматизированной системы включают:</p>
+<ul>
+<li>
+<p>Для математического вида обеспечения АС не требуется применение
+    математических методов и алгоритмов;</p>
+</li>
+<li>
+<p>Для информационного вида обеспечения АС используется организация
+    данных объектами справочник и документ, состав и структура зависит
+    от наполняемых данных;</p>
+</li>
+<li>
+<p>Для лингвистического вида обеспечения АС возможности расширения
+    наборов языка не требуется, как и тезаурусов и словарей. К способам
+    организации диалога используются поля формы;</p>
+</li>
+<li>
+<p>Для программного вида обеспечения АС требования к составу и
+    программному обеспечению изложены в предыдущем пункте оглавления
+    технического задания;</p>
+</li>
+<li>
+<p>Для технического вида обеспечения АС требуется надёжная
+    инфраструктура, включая серверное оборудование и сети, которые
+    обеспечат бесперебойную работу системы и доступ к ней для всех
+    сотрудников;</p>
+</li>
+<li>
+<p>Для метрологического вида обеспечения АС используется соответствие
+    требованиям, прописанное к автоматизированной системе;</p>
+</li>
+<li>
+<p>Для организационного вида обеспечения АС определяется
+    взаимодействием сотрудников с отделом «Информационные технологии»;</p>
+</li>
+<li>
+<p>Для методического вида обеспечения АС используется ГОСТ 34.602-2020
+    «Информационные технологии. Комплекс стандартов на
+    автоматизированные системы. Техническое задание на создание
+    автоматизированной системы».</p>
+</li>
+</ul>
+<p>Общие технические требования к АС включают следующее:</p>
+<ul>
+<li>
+<p>Численность и квалификация персонала и пользователей не требуется;</p>
+</li>
+<li>
+<p>Автоматизированная система должна обеспечивать выполнение
+    поставленных задач;</p>
+</li>
+<li>
+<p>Система должна обеспечивать высокий уровень надёжности, сводя к
+    минимуму вероятность сбоев и ошибок в работе;</p>
+</li>
+<li>
+<p>Необходимо предусмотреть меры по защите системы от внешних и
+    внутренних угроз, включая физическую безопасность оборудования и
+    защиту программного обеспечения;</p>
+</li>
+<li>
+<p>Интерфейс АС должен быть удобным и интуитивно понятным для
+    пользователей, а также соответствовать современным эстетическим
+    стандартам;</p>
+</li>
+<li>
+<p>Требования к транспортабельности для подвижных АС не требуется;</p>
+</li>
+<li>
+<p>Обслуживание АС должно вестись на стороне администрирования сервера
+    и со стороны клиентской программы;</p>
+</li>
+<li>
+<p>Защита от несанкционированного доступа должна регулироваться
+    авторизацией пользователя, эксплуатация наличием установленной
+    программы;</p>
+</li>
+<li>
+<p>Данные должны храниться на серверах, чтобы не допустить потерю
+    информации;</p>
+</li>
+<li>
+<p>Система должна быть защищена от воздействия внешних факторов, таких
+    как температура, влажность, электромагнитные помехи и другие;</p>
+</li>
+<li>
+<p>Все компоненты и технологии, используемые в АС, должны
+    соответствовать требованиям патентного законодательства и не
+    нарушать права третьих лиц;</p>
+</li>
+<li>
+<p>Требования по стандартизации должны быть соблюдены по разработанному
+    техническому заданию.</p>
+</li>
+</ul>
+<h2 id="5">5. Состав и содержание работ по созданию автоматизированной системы</h2>
+<p>Перечень этапов работ:</p>
+<p>1. Исследование и изучение информации для теоретической части;</p>
+<p>2. Составление аналитической справки;</p>
+<p>3. Составление ТЗ;</p>
+<p>4. Построение диаграмм вариантов использования;</p>
+<p>5. Построение диаграммы классов;</p>
+<p>6. Описание проектируемой информационной системы;</p>
+<p>7. Прототипирование ИС.</p>
+<h2 id="6">6. Порядок разработки автоматизированной системы</h2>
+<p>Разработка ведется поэтапно с предварительным тестированием каждой
+компоненты.</p>
+<p>После завершения каждого этапа проводятся интеграционные тесты, чтобы
+убедиться, что все компоненты работают корректно в составе системы.</p>
+<p>На финальной стадии проводится тестирование системы в условиях рабочего
+процесса, чтобы выявить и устранить возможные ошибки.</p>
+<p>После тестирования система передается заказчику для проведения
+приемочных испытаний.</p>
+<h2 id="7">7. Порядок контроля и приемки автоматизированной системы</h2>
+<p>Информационная система проходит тестирование методом «Черного ящика» для
+проверки всех функций через пользовательский интерфейс. В процессе
+испытаний ведется журнал для фиксации результатов тестов, замечаний и
+предложений по улучшению. Все испытания проводятся в соответствии с ГОСТ
+Р 59792-2021.</p>
+<h2 id="8">8. Требования к составу и содержанию работ по подготовке объекта автоматизации к вводу автоматизированной системы в действие</h2>
+<p>Создание условий функционирования объекта автоматизации, при которых
+гарантируется соответствие создаваемой АС требованиям, содержащимся в ТЗ
+на АС включают:</p>
+<p>1. Минимальные технические требования:</p>
+<ul>
+<li>
+<p>ОС Windows 10 и выше;</p>
+</li>
+<li>
+<p>Процессор Intel Celeron G6900 или аналогичный;</p>
+</li>
+<li>
+<p>Оперативная память не менее 2 Гб;</p>
+</li>
+<li>
+<p>Свободное место на жестком диске не менее 2 Гб.</p>
+</li>
+</ul>
+<p>2. Для ввода системы в действие необходимо:</p>
+<p>1. Подготовить рабочие станции;</p>
+<p>2. Установить на них ОС и ПО (1С:Предприятие 8);</p>
+<p>3. Провести обучение персонала;</p>
+<p>4. Настроить рабочие станции для корректной работы с системой.</p>
+<h2 id="9">9. Требования к документированию</h2>
+<p>Техническое задание выполнено в соответствии с ГОСТ 34.602-2020
+«Информационные технологии. Комплекс стандартов на автоматизированные
+системы. Техническое задание на создание автоматизированной системы».</p>
+<h2 id="10">10. Источники разработки</h2>
+<p>• ГОСТ 34.602-2020 «Информационные технологии. Комплекс стандартов на
+автоматизированные системы. Техническое задание на создание
+автоматизированной системы».</p>
+<p>• Данные и требования, предоставленные заказчиком.</p>
+<h2 id="_2"><strong>ФОРМА ПОСЛЕДНЕГО ЛИСТА ТЗ НА АС</strong></h2>
+<p>___________________________________________________________</p>
+<p>(код ТЗ)</p>
+<p>СОСТАВИЛИ</p>
+<hr />
+<p>Наименование       Должность        Фамилия, имя,    Подпись    Дата
+  организации,       исполнителя      отчество                  <br />
+  предприятия                                                     </p>
+<hr />
+<hr />
+<p>СОГЛАСОВАНО</p>
+<hr />
+<p>Наименование       Должность        Фамилия, имя,    Подпись    Дата
+  организации,                        отчество                  <br />
+  предприятия                                                     </p>
+<hr />
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
